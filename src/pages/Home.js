@@ -11,10 +11,10 @@ function Home(){
             <div className='flex flex-col-reverse sm:flex-col-reverse md:flex-row lg:flex-row  w-4/6 mx-auto md:mb-40 my-2'>
                 <div className='w-full flex flex-col lg:gap-5 md:gap-4'>
                     <p className='text-2xl sm:text-4xl font-semibold font-serif'>Hi there,</p>    
-                    <p className=' text-4xl sm:text-5xl md:6xl font-serif font-semibold mt-6 whitespace-nowrap'>I'm  <span className='font-sans font-bold rounded-lg'>Akhilesh Yadav</span></p>
+                    <p className='text-3xl sm:text-4xl md:text-6xl font-serif font-semibold mt-6 whitespace-nowrap'>I'm  <span className='font-sans font-bold rounded-lg'>Akhilesh Yadav</span></p>
                     <div className='text-xl sm:text-2xl font-semibold py-2'>Passionate Web Developer | Problem-Solving Enthusiast
                     </div>
-                    <p className='lg:w-4/5 md:w-4/5 w-full  font-normal text-md pr-5'>
+                    <p className='sm:w-11/12 md:w-4/5 w-full font-normal text-md mx'>
                     I am a <span className='font-medium'>computer science engineer</span> with a passion for <span className='font-medium'>web development</span> and problem-solving. I enjoy building dynamic web applications and tackling challenges with innovative solutions. Constantly eager to learn, I strive to stay ahead in the ever-evolving tech landscape.
                     </p>
                     <div className='lg:w-1/2 md:w-full flex-wrap text-xl font-semibold my-10 sm:my-1 mx-auto sm:mx-0'>
