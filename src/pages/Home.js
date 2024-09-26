@@ -3,9 +3,14 @@ import { RxDownload } from "react-icons/rx";
 import SkillHome from '../components/SkillHome';
 import ProjectHome from '../components/ProjectHome';
 import { FiArrowUpRight } from "react-icons/fi";
+import { useEffect } from 'react';
 
 
 function Home(){
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[])
     return(
         <div className="text-slate-400 w-screen h-full my-16 pt-20">
             <div className='flex flex-col-reverse sm:flex-col-reverse md:flex-row lg:flex-row  w-4/6 mx-auto md:mb-40 my-2'>
