@@ -16,7 +16,7 @@ function Home(){
             <div className='flex flex-col-reverse sm:flex-col-reverse md:flex-row lg:flex-row  w-4/6 mx-auto md:mb-40 my-2'>
                 <div className='w-full flex flex-col lg:gap-5 md:gap-4'>
                     <p className='text-2xl sm:text-4xl font-semibold font-serif'>Hi there,</p>    
-                    <p className='text-3xl sm:text-4xl md:text-6xl font-serif font-semibold mt-6 whitespace-nowrap'>I'm  <span className='font-sans font-bold rounded-lg'>Akhilesh Yadav</span></p>
+                    <p className='text-3xl sm:text-4xl md:text-6xl font-serif font-semibold mt-6 whitespace-nowrap'>I'm  <span className='font-sans font-bold rounded-lg animate-pulse'>Akhilesh Yadav</span></p>
                     <div className='text-xl sm:text-2xl font-semibold py-2'>Passionate Web Developer | Problem-Solving Enthusiast
                     </div>
                     <p className='sm:w-11/12 md:w-4/5 w-full font-normal text-md mx'>
@@ -33,7 +33,7 @@ function Home(){
             <div className='flex flex-col md:gap-10 gap-4 py-10 items-center'>
                 <h2 className='w-full text-center font-semibold text-4xl font-serif'>Projects</h2>
                <ProjectHome/>
-               <Link className=" inline w-fit h-6 underline underline-offset-2 hover:text-slate-500 transition-colors duration-300">See more <FiArrowUpRight className="inline h-5 w-5"/></Link> 
+               <Link to='/projects' className=" inline w-fit h-6 underline underline-offset-2 hover:text-slate-500 transition-colors duration-300">See more <FiArrowUpRight className="inline h-5 w-5"/></Link> 
             </div>
             
 

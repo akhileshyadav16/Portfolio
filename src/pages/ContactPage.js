@@ -2,11 +2,14 @@ import { useEffect } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosSend } from "react-icons/io";
 import { FaCircleArrowDown } from "react-icons/fa6";
+import { useRef } from "react";
 
 function ContactPage(){
+    
     useEffect(()=>{
         window.scrollTo(0,0);
     },[])
+
     return(
         <div className="h-fit text-slate-400 w-screen my-20">
             <div className="w-full sm:w-2/3 h-full sm:mx-auto">
@@ -35,7 +38,7 @@ function ContactPage(){
                     <button className="w-32 mx-auto text-lg font-semibold h-14 text-slate-400 rounded-lg shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 hover:text-slate-500 transition-colors duration-300">Send <IoIosSend className="inline h-8 w-8 my-auto" /></button>
                     
                 </form>
-                <h2 className="w-full text-center font-serif font-semibold text-xl sm:text-3xl md:text-5xl mt-10 ">Let's connect through Social Media <FaCircleArrowDown className="mx-auto text-5xl mt-8"/></h2>
+                <h2 className="w-4/5 mx-auto text-center font-serif font-semibold text-2xl sm:text-3xl md:text-5xl mt-10 ">Let's connect through Social Media <FaCircleArrowDown className="mx-auto text-5xl mt-8 animate-bounce"/></h2>
 
             </div>
             

@@ -14,7 +14,7 @@ function SkillHome(){
                     }   
                 </div>
 
-                <p className="text-center h-6 underline underline-offset-2 hover:text-slate-500 transition-colors duration-300"><Link></Link>See more <FiArrowUpRight className="inline h-5 w-5"/></p>
+                <p className="text-center w-fit mx-auto h-6 underline underline-offset-2 hover:text-slate-500 transition-colors duration-300"><Link to='/skills'>See more <FiArrowUpRight className="inline h-5 w-5"/></Link></p>
             </div>
         </div>
     );
