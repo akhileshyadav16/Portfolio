@@ -1,5 +1,11 @@
 export const skills = ['React.js','JavaScript','Redux.js','Node.js','Express.js','MongoDB','HTML5','Tailwind CSS'];
 
+export const skillArr = ['React.js','Node.js','Express.js','MongoDB','Mongoose','Redux.js','JWT','HTML5','Tailwind','CSS',];
+
+export const lang = [ 'JavaScript','C++','C','Python','Java'];
+
+export const tools = ['Git','Github','Postman'];
+
 export const cardData = [
     {   name:'Shopping cart',
         pic:'./Shopping-cart.jpeg',
