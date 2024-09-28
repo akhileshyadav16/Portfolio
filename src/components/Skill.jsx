@@ -30,7 +30,7 @@ function Skill({skill,index}){
 
     };
     return(
-            <span className="border-2 py-2 flex justify-center items-center gap-1 sm:gap-2 md:gap-4 lg:gap-6 lg:mx-4 shadow-[0_0_5px_rgba(100,116,139,0.3)] border-slate-500 h-14 font-medium rounded-xl hover:text-slate-500 transition-colors duration-300 text-base sm:text-lg" key={index}>{icons[skill]}  {skill}</span>
+            <span className="border-2 py-2  flex justify-center items-center gap-1 sm:gap-2 md:gap-4 lg:gap-6 lg:mx-4 shadow-[0_0_5px_rgba(100,116,139,0.3)] border-slate-500 h-14 font-medium rounded-xl hover:text-slate-500 transition-colors duration-300 text-base sm:text-lg" key={index}>{icons[skill]}  {skill}</span>
     );
 }
 
