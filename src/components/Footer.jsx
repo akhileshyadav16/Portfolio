@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Footer(){
     return(
-        <div className="text-slate-400 w-2/3 mx-auto my-5">
+        <div className="text-slate-400 w-11/12 sm:w-2/3 mx-auto my-5">
             <div className="bg-slate-400 w-full h-[0.5px] my-5"></div>
             <footer className="flex flex-col w-full mx-auto gap-5">
                 <div className="flex  lg:gap-16 md:gap-10 gap-8 flex-wrap mx-auto">
@@ -17,7 +17,6 @@ function Footer(){
                     <Link to="https://leetcode.com/u/akhilesh15418/" target="_blank"><SiLeetcode className="h-7 w-8 hover:text-slate-500 transition-colors duration-300 "/> </Link>
                     <Link target="_blank" to='#'><FaFacebookSquare className="h-8 w-8 hover:text-slate-500 transition-colors duration-300"/></Link>
                     <Link to='https://x.com/ydv_akhii' target="_blank"><FaSquareXTwitter className="h-8 w-8 hover:text-slate-500 transition-colors duration-300"/></Link>
-                    <Link to='#' target="_blank"><FaInstagramSquare className="h-8 w-8 hover:text-slate-500 transition-colors duration-300"/></Link>
                     
                 </div>
                 <div className="flex lg:gap-6 md:gap-4 gap-2 w-full justify-evenly flex-wrap mx-auto text-md">

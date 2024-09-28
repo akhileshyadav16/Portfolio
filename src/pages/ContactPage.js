@@ -13,7 +13,7 @@ function ContactPage(){
     return(
         <div className="h-fit text-slate-400 w-screen my-20">
             <div className="w-full sm:w-2/3 h-full sm:mx-auto">
-                <h2 className="w-full text-center font-serif font-semibold text-3xl sm:text-5xl my-5 whitespace-nowrap">Reach out to me</h2>
+                <h2 className="w-full text-center font-serif font-semibold text-2xl sm:text-3xl md:text-5xl my-5 whitespace-nowrap">Reach out to me</h2>
                 <form className='flex flex-col gap-10 sm:gap-12 w-11/12 mx-auto h-full py-2 sm:py-10 sm:px-20 pr-2 shadow-[0_0_5px_rgba(100,116,139,0.3)] border-2 border-slate-500 rounded-xl'>
                     <div className='flex gap-2 w-full items-center'>
                         <label htmlfor="firstname" className="text-lg pl-1 font-semibold whitespace-nowrap">First Name:</label>

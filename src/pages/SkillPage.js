@@ -12,7 +12,7 @@ function SkillPage(){
     },[])
     return(
         <div className="w-screen h-fit flex flex-col text-slate-400 gap-16 sm:gap-20 my-24 py-4">
-            <div className="w-2/3 mx-auto">
+            <div className="w-11/12 sm:w-2/3 mx-auto">
                 <h2 className="text-center my-3 font-semibold text-3xl sm:text-4xl font-serif">My skills</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-x-20  md:gap-y-4 text-center py-5 ">
                     {
@@ -22,7 +22,7 @@ function SkillPage(){
                     }   
                 </div>
             </div>
-            <div className=" w-2/3 mx-auto">
+            <div className="w-11/12 sm:w-2/3 mx-auto">
                 <h2 className="text-center my-3 font-semibold text-3xl sm:text-4xl font-serif">Languages</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-x-20  md:gap-y-4 text-center py-5 ">
                         {
@@ -32,7 +32,7 @@ function SkillPage(){
                         }   
                     </div>
             </div>
-            <div className=" w-2/3 mx-auto">
+            <div className="w-11/12 sm:w-2/3 mx-auto">
                 <h2 className="text-center my-3 font-semibold text-3xl sm:text-4xl font-serif">Developer Tools</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-x-20  md:gap-y-4 text-center py-5 ">
                         {

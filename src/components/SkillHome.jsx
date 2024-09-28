@@ -4,7 +4,7 @@ import { skills } from "./constant";
 function SkillHome(){
     return(
         <div className="w-full my-24 py-4">
-            <div className="w-2/3 mx-auto">
+            <div className="w-11/12 sm:w-2/3 mx-auto">
                 <h2 className="text-center my-3 font-semibold text-4xl font-serif">Skills</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-x-16  md:gap-y-4 text-center py-5 ">
                     {

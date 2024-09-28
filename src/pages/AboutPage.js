@@ -20,28 +20,28 @@ function AboutPage(){
                 <h2 className="w-full text-center text-5xl font-bold font-serif">Education</h2>
                 <div className="w-full text-center shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-2xl overflow-hidden">
                     <table className="w-full table-auto">
-                        <thead className="h-12 text-xl w-full  font-semibold ">
+                        <thead className="h-12 text-lg sm:text-xl w-full  font-semibold ">
                             <tr className="bg-slate-500 w-full rounded-2xl bg-opacity-20">
                                 <th className="">Year</th>
-                                <th>Qualification</th>
+                                <th className="pr-2 ">Qualification</th>
                                 <th>Grade</th>
                                 <th >College</th>
                             </tr>
                         </thead>
-                        <tbody >
-                            <tr className="h-10">
+                        <tbody className="">
+                            <tr className="h-10 my-5 border-slate-400 border-b sm:border-0">
                                 <td>Nov 2022-Present</td>
                                 <td>B.Tech - CSE</td>
                                 <td>9.16/10</td>
                                 <td >FET, GKV Haridwar</td>
                             </tr>
-                            <tr className="h-10">
+                            <tr className="h-10 my-5 border-slate-400 border-b sm:border-0">
                                 <td>April 2020-March 2021</td>
                                 <td>Intermediate</td>
                                 <td>86.8%</td>
                                 <td>DDAIC, Ayodhya</td>
                             </tr>
-                            <tr className="h-10">
+                            <tr className="h-10 my-5 border-slate-400 border-b sm:border-0">
                                 <td>April 2018-March 2019</td>
                                 <td>High school</td>
                                 <td>88.16%</td>
