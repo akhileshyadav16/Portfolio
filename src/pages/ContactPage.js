@@ -38,12 +38,12 @@ function ContactPage() {
       },
       '-CX388U9UWwtk7ZIs'
     )
-    .then((result) => {
-        toast.success('Sent successfully to AKY !! wait for reply');
+    .then(() => {
+        toast.success('Sent successfully');
       setFormData({ firstname: '', lastname: '', email: '', subject: '', message: '' });
     })
-    .catch((error) => {
-        toast.error('Failed, Try again !!')
+    .catch(() => {
+        toast.error('Failed,Try again')
     });
   };
 
@@ -55,23 +55,23 @@ function ContactPage() {
           <input type="hidden" name="_norecaptcha" value="true" />
           <div className='flex gap-2 w-full items-center'>
             <label htmlFor="firstname" className="text-lg pl-1 font-semibold whitespace-nowrap">First Name:</label>
-            <input type="text" placeholder="Enter first name" name="firstname" id="firstname" className="flex-grow h-12 outline-none w-full bg-slate-500 bg-opacity-20 pl-4 shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.firstname} onChange={handleChange} />
+            <input required type="text" placeholder="Enter first name" name="firstname" id="firstname" className="flex-grow h-12 outline-none w-full bg-slate-500 bg-opacity-20 pl-4 shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.firstname} onChange={handleChange} />
           </div>
           <div className='flex gap-2 w-full items-center'>
             <label htmlFor="lastname" className="text-lg pl-1 font-semibold whitespace-nowrap">Last Name:</label>
-            <input type="text" placeholder="Enter last name" name="lastname" id="lastname" className="flex-grow h-12 pl-4 outline-none bg-slate-500 w-full bg-opacity-20 shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.lastname} onChange={handleChange} />
+            <input required type="text" placeholder="Enter last name" name="lastname" id="lastname" className="flex-grow h-12 pl-4 outline-none bg-slate-500 w-full bg-opacity-20 shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.lastname} onChange={handleChange} />
           </div>
           <div className="flex gap-4 items-center">
             <label htmlFor="email" className="text-lg pl-1 font-semibold whitespace-nowrap">Email - id:</label>
-            <input type="email" placeholder="Enter email" name='email' id='email' className="flex-grow h-12 outline-none bg-slate-500 bg-opacity-20 pl-4 w-full shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.email} onChange={handleChange} />
+            <input required type="email" placeholder="Enter email" name='email' id='email' className="flex-grow h-12 outline-none bg-slate-500 bg-opacity-20 pl-4 w-full shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.email} onChange={handleChange} />
           </div>
           <div className='flex gap-4 items-center'>
             <label htmlFor="subject" className="text-lg pl-1 font-semibold whitespace-nowrap">Subject : </label>
-            <input type="text" placeholder="Enter subject" name="subject" id="subject" className="flex-grow h-12 outline-none bg-slate-500 bg-opacity-20 pl-4 w-full shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.subject} onChange={handleChange} />
+            <input required type="text" placeholder="Enter subject" name="subject" id="subject" className="flex-grow h-12 outline-none bg-slate-500 bg-opacity-20 pl-4 w-full shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.subject} onChange={handleChange} />
             </div>
           <div className='flex gap-2'>
             <label htmlFor="message" className="text-lg pl-1 font-semibold whitespace-nowrap">Message:</label>
-            <textarea placeholder="Enter your message" name="message" id="message" className="flex-grow h-48 outline-none bg-slate-500 bg-opacity-20 w-full pl-4 mx-auto shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.message} onChange={handleChange}></textarea>
+            <textarea required placeholder="Enter your message" name="message" id="message" className="flex-grow h-48 pt-1 outline-none bg-slate-500 bg-opacity-20 w-full pl-4 mx-auto shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 rounded-xl" value={formData.message} onChange={handleChange}></textarea>
           </div>
           <button type="submit" className="w-32 mx-auto text-lg font-semibold h-14 text-slate-400 rounded-lg shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 hover:text-slate-500 transition-colors duration-300">Send <IoIosSend className="inline h-8 w-8 my-auto" /></button>
         </form>

@@ -3,10 +3,13 @@ import { RxDownload } from "react-icons/rx";
 import SkillHome from '../components/SkillHome';
 import ProjectHome from '../components/ProjectHome';
 import { FiArrowUpRight } from "react-icons/fi";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+
+
 
 
 function Home(){
+
 
     useEffect(()=>{
         window.scrollTo(0,0);
@@ -22,9 +25,10 @@ function Home(){
                     <p className='w-full sm:w-11/12 px-3 sm:px-0 md:w-4/5 font-normal text-md mx'>
                     I am a <span className='font-medium'>computer science engineer</span> with a passion for <span className='font-medium'>web development</span> and problem-solving. I enjoy building dynamic web applications and tackling challenges with innovative solutions. Constantly eager to learn, I strive to stay ahead in the ever-evolving tech landscape.
                     </p>
-                    <div className='lg:w-1/2 md:w-full flex-wrap text-xl font-semibold my-10 sm:my-1 mx-auto sm:mx-0'>
-                        <button className='w-52 h-14 text-slate-300 rounded-lg shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 hover:text-slate-500 transition-colors duration-300'> Resume  <RxDownload className='inline h-6 w-6'/>
-                        </button>
+                    <div className='lg:w-1/2 md:w-full flex-wrap text-xl font-semibold my-12 sm:my-1 mx-auto sm:mx-0'>
+                        <Link to="./Akhilesh-Yadav_resume.pdf" target='_blank'  className='w-56 h-14 text-slate-300 rounded-lg p-3 shadow-[0_0_5px_rgba(100,116,139,0.3)] border border-slate-500 hover:text-slate-500 transition-colors duration-300'> Resume <RxDownload className='inline h-6 w-6'/>
+
+                        </Link>
                     </div>
                 </div>
                 <img src='./Aky.png' alt='Aky-pic' className='w-4/5 sm:w-3/4 md:w-1/3  h-4/5 sm:2/5 md:h-1/3 rounded-2xl object-cover shadow-[0_0_10px_rgba(100,116,139,0.5)] border border-slate-500 my-5 mx-auto md:mx-0'/>
