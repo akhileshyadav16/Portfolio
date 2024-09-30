@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
 import SkillPage from "./pages/SkillPage";
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/skills" element={<SkillPage/>}/>
       </Routes>
       <Footer/>
+      <Toaster/>
     </div>
   );
 }
